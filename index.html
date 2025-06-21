@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pranesh N - AI & Data Science Portfolio</title>
+    <meta name="description" content="Pranesh N - B.Tech student specializing in Artificial Intelligence and Data Science. Explore my projects, experience, and skills in AI, machine learning, and data visualization.">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" as="style">
+    <link rel="preload" href="attached_assets/profile image_1750467487346.png" as="image">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">Pranesh N</div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#about" class="nav-link" data-section="about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link" data-section="experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-container">
+            <div class="hero-image animate-slide-in-left">
+                <img src="attached_assets/profile image_1750467487346.png" alt="Pranesh N profile picture" class="profile-img">
+            </div>
+            <div class="hero-content animate-slide-in-right">
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1 class="hero-name">
+                    <span id="typewriter"></span>
+                    <span class="cursor" id="cursor">|</span>
+                </h1>
+                <p class="hero-title">Artificial Intelligence & Data Science Student</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="downloadCV()">Download CV</button>
+                    <button class="btn btn-secondary" onclick="scrollToSection('contact')">Contact Info</button>
+                </div>
+                <div class="social-links">
+                    <img src="attached_assets/linkedin_1750467136273.png" alt="LinkedIn" class="social-icon" onclick="window.open('https://linkedin.com', '_blank')">
+                    <img src="attached_assets/github_1750467136273.png" alt="GitHub" class="social-icon" onclick="window.open('https://github.com', '_blank')">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator" onclick="scrollToSection('about')">
+            <i data-lucide="arrow-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <p class="section-subtitle">Get To Know More</p>
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image animate-on-scroll" data-animation="slide-in-left">
+                    <img src="attached_assets/IMG_20250607_172417_116_1750468447854.webp" alt="Pranesh N - AI and Data Science Student" class="about-img">
+                </div>
+                <div class="about-details animate-on-scroll" data-animation="slide-in-right">
+                    <div class="about-cards">
+                        <div class="about-card">
+                            <img src="attached_assets/experience_1750467136272.png" alt="Experience" class="card-icon">
+                            <h3>Experience</h3>
+                            <p>Fresher<br>5+ Months Total Experience</p>
+                        </div>
+                        <div class="about-card">
+                            <img src="attached_assets/education_1750467136271.png" alt="Education" class="card-icon">
+                            <h3>Education</h3>
+                            <p>B.Tech in AI & Data Science<br>Dr. NGP Institute of Technology</p>
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <p>Motivated B.Tech student specializing in Artificial Intelligence and Data Science with a strong foundation in data science, machine learning, and programming. Experienced in hands-on projects and internships with exposure to deep learning, data visualization, and intelligent systems. Quick learner with good communication and creativity, aiming to apply innovative solutions to real-world challenges.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator" onclick="scrollToSection('experience')">
+            <i data-lucide="arrow-down"></i>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <p class="section-subtitle">Explore My</p>
+            <h2 class="section-title">Experience & Skills</h2>
+            
+            <!-- Work Experience -->
+            <div class="work-experience">
+                <h3 class="subsection-title">Work Experience</h3>
+                <div class="experience-grid">
+                    <div class="experience-card animate-on-scroll" data-animation="slide-in-left">
+                        <h4>Quality Control (QC) Associate</h4>
+                        <p class="company">Gessdemn Global Services</p>
+                        <p class="duration">June 2024 – 1 Month</p>
+                        <ul>
+                            <li><i data-lucide="check-circle"></i>Performed quality checks on deliverables to ensure accuracy and compliance with client specifications</li>
+                            <li><i data-lucide="check-circle"></i>Identified and reported data discrepancies, contributing to improved process reliability</li>
+                            <li><i data-lucide="check-circle"></i>Collaborated with the operations team to maintain quality standards in project execution</li>
+                        </ul>
+                    </div>
+                    <div class="experience-card animate-on-scroll" data-animation="slide-in-right">
+                        <h4>Data Science Intern</h4>
+                        <p class="company">Appin Technology</p>
+                        <p class="duration">Jan 2023 – 4 Weeks</p>
+                        <ul>
+                            <li><i data-lucide="check-circle"></i>Worked on real-time datasets to perform preprocessing and visualization using Python</li>
+                            <li><i data-lucide="check-circle"></i>Gained hands-on experience in machine learning model building and evaluation</li>
+                            <li><i data-lucide="check-circle"></i>Participated in end-to-end project development and reporting</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Technical Skills -->
+            <div class="technical-skills animate-on-scroll" data-animation="scale-up">
+                <h3 class="subsection-title">My Skills</h3>
+                <div class="skills-showcase">
+                    <div class="skills-circle-section animate-on-scroll" data-animation="slide-in-left">
+                        <div class="skills-circle-container">
+                            <div class="skills-circle">
+                                <div class="skills-circle-center">
+                                    <span class="skills-circle-text">Focus</span>
+                                </div>
+                            </div>
+                            <div class="skill-labels">
+                                <div class="skill-label" style="--position-x: 85%; --position-y: 20%; --color: #3776ab;">Python</div>
+                                <div class="skill-label" style="--position-x: 85%; --position-y: 80%; --color: #ff6b6b;">Data Science</div>
+                                <div class="skill-label" style="--position-x: 15%; --position-y: 80%; --color: #4ecdc4;">AI & ML</div>
+                                <div class="skill-label" style="--position-x: 15%; --position-y: 20%; --color: #45b7d1;">UI/UX</div>
+                                <div class="skill-label" style="--position-x: 50%; --position-y: 5%; --color: #96ceb4;">Testing</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skills-list-section animate-on-scroll" data-animation="slide-in-right">
+                        <div class="skill-category">
+                            <h4 class="skill-category-title">Programming & Development</h4>
+                            <div class="skill-items">
+                                <div class="skill-item">
+                                    <span class="skill-name">Python</span>
+                                    <span class="skill-level">Beginner</span>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">SQL</span>
+                                    <span class="skill-level">Beginner</span>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">Game Development</span>
+                                    <span class="skill-level">Unity</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-category">
+                            <h4 class="skill-category-title">AI & Data Science</h4>
+                            <div class="skill-items">
+                                <div class="skill-item">
+                                    <span class="skill-name">Machine Learning</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">Deep Learning</span>
+                                    <span class="skill-level">CNN Models</span>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">Data Visualization</span>
+                                    <span class="skill-level">Python</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-category">
+                            <h4 class="skill-category-title">Design & Testing</h4>
+                            <div class="skill-items">
+                                <div class="skill-item">
+                                    <span class="skill-name">UI/UX Design</span>
+                                    <span class="skill-level">Mobile Apps</span>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">Manual Testing</span>
+                                    <span class="skill-level">Learning</span>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">Quality Control</span>
+                                    <span class="skill-level">Professional</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator" onclick="scrollToSection('projects')">
+            <i data-lucide="arrow-down"></i>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <p class="section-subtitle">Browse My Recent</p>
+            <h2 class="section-title">Projects & Achievements</h2>
+            
+            <!-- Main Project -->
+            <div class="main-project animate-on-scroll" data-animation="scale-up">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" alt="Banana crop disease detection AI project">
+                    </div>
+                    <div class="project-content">
+                        <h3>Ensemble CNN Architecture for Banana Crop Disease Detection</h3>
+                        <p>An integrated mobile framework for sustainable banana crop management using ensemble CNN-based models capable of detecting multiple banana leaf diseases with high accuracy. Promotes sustainable farming through early detection and actionable insights.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">CNN</span>
+                            <span class="tech-tag">Deep Learning</span>
+                            <span class="tech-tag">Mobile Development</span>
+                        </div>
+                        <div class="project-links">
+                            <button class="btn btn-outline" onclick="window.open('https://github.com', '_blank')">
+                                <i data-lucide="github"></i> GitHub
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Conference Presentations -->
+            <div class="presentations">
+                <h3 class="subsection-title">Conference Presentations</h3>
+                <div class="presentations-grid">
+                    <div class="presentation-card animate-on-scroll" data-animation="slide-in-left">
+                        <div class="presentation-image">
+                            <img src="attached_assets/image_1750469370494.png" alt="International Conference presentation">
+                        </div>
+                        <div class="presentation-content">
+                            <h4>International Conference</h4>
+                            <h5>Sign Language Detection System</h5>
+                            <p>Presented a research paper on a deep learning model for recognizing and classifying sign language gestures, showcasing AI's role in improving accessibility for the hearing-impaired community.</p>
+                        </div>
+                    </div>
+                    <div class="presentation-card animate-on-scroll" data-animation="slide-in-right">
+                        <div class="presentation-image">
+                            <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400" alt="National Conference presentation">
+                        </div>
+                        <div class="presentation-content">
+                            <h4>National Conference</h4>
+                            <h5>Swarm Intelligence in Logistics</h5>
+                            <p>Presented a paper proposing a logistics optimization model using swarm intelligence algorithms, highlighting the role of intelligent automation in supply chain and delivery systems.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator" onclick="scrollToSection('contact')">
+            <i data-lucide="arrow-down"></i>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <p class="section-subtitle">Get in Touch</p>
+            <h2 class="section-title">Contact Me</h2>
+        </div>
+        
+        <div class="contact-main">
+            <div class="contact-content">
+                <div class="contact-info-section">
+                    <p class="contact-motto">Great vision without great people is irrelevant.<br>Let's work together.</p>
+                    
+                    <h3 class="contact-info-title">Contact Us</h3>
+                    <div class="contact-address">
+                        <p>Our mailing address is:</p>
+                        <address>
+                            Coimbatore, Tamil Nadu<br>
+                            Phone: +91-7538833882
+                        </address>
+                    </div>
+                    
+                    <div class="contact-social">
+                        <a href="https://linkedin.com" target="_blank" class="social-link">
+                            <i data-lucide="linkedin"></i>
+                        </a>
+                        <a href="https://github.com" target="_blank" class="social-link">
+                            <i data-lucide="github"></i>
+                        </a>
+                        <a href="mailto:praneshkriss@gmail.com" class="social-link">
+                            <i data-lucide="mail"></i>
+                        </a>
+                        <a href="tel:+917538833882" class="social-link">
+                            <i data-lucide="phone"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-form-section">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Enter your Name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Enter a valid email address" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Enter your message" rows="6" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <nav class="footer-nav">
+                <a href="#about" onclick="scrollToSection('about')">About</a>
+                <a href="#experience" onclick="scrollToSection('experience')">Experience</a>
+                <a href="#projects" onclick="scrollToSection('projects')">Projects</a>
+                <a href="#contact" onclick="scrollToSection('contact')">Contact</a>
+            </nav>
+            <p>&copy; 2024 Pranesh N. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
