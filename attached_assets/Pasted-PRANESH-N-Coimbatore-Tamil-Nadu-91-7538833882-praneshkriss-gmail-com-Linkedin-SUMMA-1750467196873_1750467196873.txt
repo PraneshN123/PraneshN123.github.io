@@ -1,0 +1,55 @@
+PRANESH N
+ Coimbatore, Tamil Nadu | +91-7538833882
+ praneshkriss@gmail
+ .com |
+ Linkedin
+ SUMMARY
+ Motivated B.Tech student specializing in Artificial Intelligence and Data Science with a strong foundation in data
+ science, machine learning, and programming. Experienced in hands-on projects and internships with exposure to
+ deep learning, data visualization, and intelligent systems. Quick learner with good communication and creativity,
+ aiming to apply innovative solutions to real-world challenges
+ EXPERIENCE
+ Quality Control (QC) Associate, Gessdemn Global Services
+ June 2024 – 1 Month
+ Performed quality checks on deliverables to ensure accuracy and compliance with client specifications.
+ Identified and reported data discrepancies, contributing to improved process reliability.
+ Collaborated with the operations team to maintain quality standards in project execution.
+ Data Science Intern, Appin Technology
+ Worked on real-time datasets to perform preprocessing and visualization using Python.
+ Gained hands-on experience in machine learning model building and evaluation.
+ Participated in end-to-end project development and reporting.
+ Jan 2023 – 4 Weeks
+ PROJECTS
+ Ensemble CNN Architecture with Multi-Model Disease Detection for Sustainable Banana Crop Management:
+ An Integrated Mobile Framework
+ Tech Stack: Python, CNN, Deep Learning, Mobile Development
+ Developed an ensemble CNN-based model capable of detecting multiple banana leaf diseases with high accuracy.
+ Integrated the model into a mobile application for real-time crop disease diagnosis and management.
+ Promotes sustainable farming through early detection and actionable insights.
+ SKILLS
+ Python (Beginner)
+ UI/UX Design
+ SQL (Beginner)
+ Game Development (Unity)
+ Manual Testing (Learning)
+ EDUCATION
+ B.Tech in Artificial Intelligence and Data Science
+ Dr. NGP Institute of Technology – CGPA: 6.5
+ 2021 – 2025
+ Gained foundational knowledge in AI, machine learning, and data science with proficiency in Python, SQL, and real
+world project implementation.
+ HSC – Higher Secondary Certificate
+ TMHNU Matric Hr. Sec. School – Percentage: 83.6%
+ SSLC – Secondary School Leaving Certificate
+ TMHNU Matric Hr. Sec. School – Percentage: 75%
+ 2020 – 2021
+ 2018 – 2019
+ CO-CURRICULAR ACTIVITIES
+ Presented at an International Conference
+ Title: Sign Language Detection System
+ Presented a research paper on a deep learning model for recognizing and classifying sign language gestures.
+ Showcased AI’s role in improving accessibility for the hearing-impaired community.
+ Paper Presentation at National Conference
+ Title: Swarm Intelligence in Logistics
+ Presented a paper proposing a logistics optimization model using swarm intelligence algorithms.
+ Highlighted the role of intelligent automation in supply chain and delivery systems.
